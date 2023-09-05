@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="bmi.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            border: 0px ;
+            padding: 20px;
+            border-radius: 5px;
+        
+         
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        input[type="number"] {
+            width: 50%;
+            padding: 10px;
+           border: 0px;
+            border-radius: 4px;
+            &:hover{
+            box-shadow: 0 7px 30px #f35464;
+            transition: box-shadow 500ms ease;
+        }
+        }
+       
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container front face">
+    <h1>BMI Calculator</h1>
+    <div class="ss">
+            <label for="weight">Weight (kg):</label><br/>
+           
+            <input type="number"  id="weight" required  placeholder="Enter weight" ><br/><br>
+    
+            <label for="height">Height (cm):</label><br>
+            <input type="number"  id="height" required placeholder="Enter height"><br><br>
+            
+            <button onclick="bmi()">calculat</button><br><br>
+      
+        <div id="result"></div>
+        
+        
+    </div> 
+    </div>
+
+    
+    <script src="bmi calculator.js">
+        
+    </script>
+   
+
+   <!-- <div class="container">
+    <div class="front face">
+      
+      <h2>BMI Calculator</h2>
+      <hr/>
+      <form>
+        <fieldset class="user">
+          <input placeholder="Enter your weight" type="text" name="name"/>
+        </fieldset>
+        <fieldset class="email">
+          <input placeholder="Enter height" type="email" name="email"/>
+        </fieldset>
+        <fieldset class="password">
+          <input placeholder="Password" type="password" name="password"/>
+        </fieldset>
+        <button class="button" role="submit">
+          <div class="fa fa-sign-in"></div>
+        </button>
+      </form>
+    </div>
+  </div> -->
+
+</body>
+</html>

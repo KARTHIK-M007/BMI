@@ -1,0 +1,52 @@
+body {
+    background: radial-gradient(ellipse farthest-corner at left top, #f35464 30%, #841F4B 100%);
+  height: 100vh;
+  font-family: 'Raleway';
+  color: #333;
+}
+input{
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.face{
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    right:0;
+    
+    backface-visibility: hidden;
+    border-radius: inherit;
+    background: #fff;
+     width: 374px;
+
+  border-radius: 15px;
+  
+  }
+  
+  .front {
+    overflow: hidden;
+  }
+  .ss{
+    margin: 10px;
+    padding-left: 109px;
+  }
+  button{
+    position: relative;
+    left: 40px;
+  }
+
+  /* .container {
+    opacity: 0;
+  
+  box-sizing: border-box;
+      position: absolute;
+    padding-bottom: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+      box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
+   width: 150px;
+    height: 70px;
+    border-radius: 15px;
+  } */
+  
